@@ -7,3 +7,8 @@ Occurs when there is a syntax error in an expression.  These errors are thrown w
 The error message contains a more precise description of the error, including the location (column) in the expression where the error occurred.
 
 To resolve, learn more about {@link guide/expression AngularJS expressions}, identify the error and fix the expression's syntax.
+{{scope.webpartindex == 0 ?
+
+                            scope.GlobalSettings.WebPartTitle == 'Corporate Alerts' ? 'BizpCorporateAlerts.WebPartTitle' : scope.GlobalSettings.WebPartTitle | translate
+
+                            : scope.GlobalSettings.WebPartTitle == 'Notice Board' ? 'BizpNoticeBoard.WebPartTitle' : scope.GlobalSettings.WebPartTitle | translate}}
